@@ -814,7 +814,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙿𝙷', callback_data='tele')
             ],[
             InlineKeyboardButton('𝚆𝙷𝙾𝙸𝚂', callback_data='whois'),
-            InlineKeyboardButton('𝙼𝚄𝚃𝙴', callback_data='restric'),
+            
             
             ],[
             InlineKeyboardButton('𝚁𝙴𝙿𝙾𝚁𝚃', callback_data='report'),
@@ -831,7 +831,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             
             ],[
-            InlineKeyboardButton('⚚ 𝙱𝙰𝙲𝙺 ⚚', callback_data='start')
+            InlineKeyboardButton('◀𝙱𝙰𝙲𝙺◀', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -862,7 +862,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙿𝙷', callback_data='tele')
             ],[
             InlineKeyboardButton('𝚆𝙷𝙾𝙸𝚂', callback_data='whois'),
-            InlineKeyboardButton('𝙼𝚄𝚃𝙴', callback_data='restric'),
+            
          
             ],[
             InlineKeyboardButton('𝚁𝙴𝙿𝙾𝚁𝚃', callback_data='report'),
@@ -879,7 +879,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
            
             ],[
-            InlineKeyboardButton('⚚ 𝙱𝙰𝙲𝙺 ⚚', callback_data='start')
+            InlineKeyboardButton('◀𝙱𝙰𝙲𝙺◀', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.answer("𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝗍𝗈 𝗆𝗒 𝖧𝖾𝗅𝗉 𝗆𝗈𝖽𝗎𝗅𝖾")
