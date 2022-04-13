@@ -67,7 +67,7 @@ Note:- Give a user details
 
 <b>𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂</b>
 
-››  /song 𝚂𝙾𝙽𝙶 𝙽𝙰𝙼𝙴 
+››  /song Name Of The Song
 
 𝚆𝙾𝚁𝙺𝚂 𝙾𝙽𝙻𝚈 𝙾𝙽 𝙶𝚁𝙾𝚄𝙿"""
 
@@ -112,19 +112,13 @@ Helps you to know your ping 🚶🏼‍♂️
 <b>Commands:</b>
 
 • /alive - To check you are alive.
-• /help - To get help.
 • /ping - To get your ping.
-• /repo - Source Code.
 • /channel - Channel Details.
-• /ajax - Bot Link.
 <b>🏹Usage🏹 :</b>
 
-• This commands can be used in pms and groups
-• This commands can be used buy everyone in the groups and bots pm
-• Share us for more features"""
+• This commands can be used in pms and groups"""
     TELE_TXT = """<b>▫️HELP: Telegraph▪️</b>
 
-Do as you wish with telegra.ph module!
 
 </b>USAGE:</b>
 
@@ -132,8 +126,7 @@ Do as you wish with telegra.ph module!
 
 <b>NOTE:</b>
 
-• This Command Is Available in goups and pms
-• This Command Can be used by everyone"""
+• This Command Is Available in groups and pms"""
 
     PRIVATEBOT_TXT = """<b>𝙿𝚁𝙸𝚅𝙰𝚃𝙴 𝙱𝙾𝚃 𝙵𝙾𝚁 𝚈𝙾𝚄</b>
 <b>›› SUPPORT OUR BOT</b>"""
@@ -159,14 +152,12 @@ Delete A Lot Of Messages From Groups!
  <b>ADMIN</b> 
 
 ◉ /purge :- Delete All Messages From The Replied To Message, To The Current Message"""
-    BUTTON_TXT = """Help: <b>Buttons</b>
-
--ᗩᒍᗩ᙭  Supports both url and alert inline buttons.
+    BUTTON_TXT = """Help: <b>Buttons</b
+Supports both url and alert inline buttons.
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. ᗩᒍᗩ᙭ supports buttons with any telegram media type.
-3. Buttons should be properly parsed as markdown format
+2. supports buttons with any telegram media type.
 
 <b>URL buttons:</b>
 <code>[Button Text](buttonurl:https://t.me/MWUpdatez)</code>
@@ -298,9 +289,7 @@ This module only works for my admins
 
 ➤ 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐚𝐧𝐝 𝐔𝐬𝐚𝐠𝐞:
 
-➪ 𝖩𝗎𝗌𝗍 𝗌𝖾𝗇𝖽 𝗆𝖾 𝖺 𝗂𝗆𝖺𝗀𝖾 𝗍𝗈 𝖾𝖽𝗂𝗍 ✨
-
-𝖬𝖺𝖽𝖾 𝖻𝗒 <a href=https://t.me/MWUpdatez>𝙼𝚆-𝚄𝙿𝙳𝙰𝚃𝙴𝚉</a>"""
+➪ 𝖩𝗎𝗌𝗍 𝗌𝖾𝗇𝖽 𝗆𝖾 𝖺 𝗂𝗆𝖺𝗀𝖾 𝗍𝗈 𝖾𝖽𝗂𝗍 ✨"""
 
     STICKER_TXT = """𝚈𝙾𝚄 𝙲𝙰𝙽 𝚄𝚂𝙴 𝚃𝙷𝙸𝚂 𝙼𝙾𝙳𝚄𝙻𝙴 𝚃𝙾 𝙵𝙸𝙽𝙳 𝙰𝙽𝚈 𝚂𝚃𝙸𝙲𝙺𝙴𝚁𝚂 𝙸𝙳.
 • 𝐔𝐒𝐀𝐆𝐄
