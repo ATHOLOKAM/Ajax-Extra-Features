@@ -47,7 +47,7 @@ async def start(client, message):
             InlineKeyboardButton('💡HELP', callback_data='help'),
             InlineKeyboardButton('📣ABOUT', callback_data='about')
             ],[
-            InlineKeyboardButton('🔍SEARCH', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')
+            InlineKeyboardButton('🔍SEARCH', switch_inline_query_current_chat='')
         ]]         
         reply_markup = InlineKeyboardMarkup(buttons)        
         await message.reply_photo(
@@ -75,7 +75,7 @@ async def start(client, message):
             btn.append([InlineKeyboardButton("🔁 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 🔁", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**𝑱𝒐𝒊𝒏 𝑶𝒖𝒓 𝑴𝒐𝒗𝒊𝒆 𝑼𝒑𝒅𝒂𝒕𝒆𝒔 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 𝑻𝒐 𝑼𝒔𝒆 𝑻𝒉𝒊𝒔 𝑩𝒐𝒕!**",
+            text="**നിങ്ങൾ ആവിശ്യപ്പെട്ട സിനിമ ലഭിക്കുന്നതിനായി, നിങ്ങൾ താഴെ കൊടുത്തിട്ടുള്ള JOIN OUR CHANNEL ബട്ടനിൽ അമർത്തി ചാനലിൽ ജോയിൻ ചെയ്യണം. ജോയിൻ ചെയ്ത ശേഷം വീണ്ടും ബൊട്ടിൽ വന്ന് TRY AGAIN ബട്ടനിൽ അമർത്തിയാൽ നിങ്ങൾക്ക് സിനിമ ലഭിക്കുന്നതാണ്...🙃!**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode="markdown"
             )
@@ -90,7 +90,7 @@ async def start(client, message):
             InlineKeyboardButton('💡HELP', callback_data='help'),
             InlineKeyboardButton('📣ABOUT', callback_data='about')
             ],[
-            InlineKeyboardButton('🔍SEARCH', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')
+            InlineKeyboardButton('🔍SEARCH', switch_inline_query_current_chat='')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
