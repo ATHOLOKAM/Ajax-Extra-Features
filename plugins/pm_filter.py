@@ -818,15 +818,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙺𝙸𝙲𝙺', callback_data='zombies')
             ],[
             InlineKeyboardButton('𝚁𝙴𝙿𝙾𝚁𝚃', callback_data='report'),
-            InlineKeyboardButton('𝚈𝚃-𝚃𝙷𝚄𝙼𝙱', callback_data='ytthumb'),
+            
             InlineKeyboardButton('𝚂𝚃𝙸𝙲𝙺𝙴𝚁-𝙸𝙳', callback_data='sticker')
             ],[
-            InlineKeyboardButton('𝙲𝙾𝚅𝙸𝙳', callback_data='corona'),
+            
             InlineKeyboardButton('𝙰𝚄𝙳𝙸𝙾-𝙱𝙾𝙾𝙺', callback_data='abook'),
             InlineKeyboardButton('𝚄𝚁𝙻-𝚂𝙷𝙾𝚁𝚃', callback_data='urlshort')
             ],[
             InlineKeyboardButton('𝙶-𝚃𝚁𝙰𝙽𝚂', callback_data='gtrans'),
-            InlineKeyboardButton('𝙵𝙸𝙻𝙴-𝚂𝚃𝙾𝚁𝙴', callback_data='newdata'),
+            
             InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚄𝚂', callback_data='stats')
             ],[
             
@@ -866,15 +866,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙺𝙸𝙲𝙺', callback_data='zombies')
             ],[
             InlineKeyboardButton('𝚁𝙴𝙿𝙾𝚁𝚃', callback_data='report'),
-            InlineKeyboardButton('𝚈𝚃-𝚃𝙷𝚄𝙼𝙱', callback_data='ytthumb'),
+            
             InlineKeyboardButton('𝚂𝚃𝙸𝙲𝙺𝙴𝚁-𝙸𝙳', callback_data='sticker')
             ],[
-            InlineKeyboardButton('𝙲𝙾𝚅𝙸𝙳', callback_data='corona'),
+            
             InlineKeyboardButton('𝙰𝚄𝙳𝙸𝙾-𝙱𝙾𝙾𝙺', callback_data='abook'),
             InlineKeyboardButton('𝚄𝚁𝙻-𝚂𝙷𝙾𝚁𝚃', callback_data='urlshort')
             ],[
             InlineKeyboardButton('𝙶-𝚃𝚁𝙰𝙽𝚂', callback_data='gtrans'),
-            InlineKeyboardButton('𝙵𝙸𝙻𝙴-𝚂𝚃𝙾𝚁𝙴', callback_data='newdata'),
+            
             InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚄𝚂', callback_data='stats')
             ],[
            
@@ -1110,7 +1110,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "extra":
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help'),
-            InlineKeyboardButton('𝙰𝙳𝙼𝙸𝙽', callback_data='admin')
+            
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
